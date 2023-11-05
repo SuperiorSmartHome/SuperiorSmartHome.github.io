@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="css/style.css"> <!-- General Styling -->
+  <link rel="stylesheet" type="text/css" href="css/home.css"> <!-- Page-Specific Styling -->
+  <script src="https://kit.fontawesome.com/47274269df.js" crossorigin="anonymous"></script>
+  <title>Superior Smart Home</title>
+</head>
+<body>
+  <!-- Mobile Hamburger Menu -->
+  <i class="fa-solid fa-bars fa-2xl" id="mobile-nav" 
+    onclick= "document.getElementById('topnav').style.display === 'none' ? document.getElementById('topnav').style.display='flex' : document.getElementById('topnav').style.display='none';">
+  </i>
+
+  <!-- Page Title -->
+  <h1 class="page-title">Superior Smart Home</h1>
+
+  <!-- Page Navigation -->
+  <nav class="topnav" id="topnav">
+    <a href="index.html">Home</a>
+    <a href="about.html">About</a>
+    <a href="services.html">Services</a>
+    <a href="reviews.html">Reviews</a>
+    <a href="contact.html">Contact Us</a>
+  </nav>
+
+  <!-- Page Content -->
+  <section id="intro">
+    <video autoplay id="walkthrough-video">
+      <source src="./Resources/Homepage_Video.mp4" />
+      Unfortunately, your browser did not load the video.
+    </video>
+  </section>
+
+  <h2 style="text-align: center; text-decoration: underline;">Services Offered</h2>
+  <p style="text-align: center;">Click on the buttons below to learn more about each service we offer.</p>
+
+  <section id="services">
+    <div class="service-container" onclick="location.href='services.html#speakers';">
+      <i class="fa-solid fa-music"></i>
+      <p>Speakers</p>
+    </div>
+    
+    <div class="service-container" onclick="location.href='services.html#doorbells';">
+      <i class="fa-solid fa-bell center"></i>
+      <p>Doorbells</p>
+    </div>
+
+    <div class="service-container" onclick="location.href='services.html#locks';">
+      <i class="fa-solid fa-lock center"></i>
+      <p>Locks</p>
+    </div>
+
+    <div class="service-container" onclick="location.href='services.html#garages';">
+      <i class="fa-solid fa-warehouse"></i>
+      <p>Garages</p>
+    </div>
+
+    <div class="service-container" onclick="location.href='services.html#irrigation';">
+      <i class="fa-solid fa-cloud-showers-heavy"></i>
+      <p>Irrigation</p>
+    </div>
+
+    <div class="service-container" onclick="location.href='services.html#security';">
+      <i class="fa-solid fa-shield-halved"></i>
+      <p>Security</p>
+    </div>
+
+    <div class="service-container" onclick="location.href='services.html#voice-assistants';">
+      <i class="fa-solid fa-microphone"></i>
+      <p>Voice Assistants</p>
+    </div>
+  </section>
+</body>
+</html>

@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css/style.css"> <!-- General Styling -->
+    <link rel="stylesheet" type="text/css" href="css/reviews.css"> <!-- Page-Specific Styling -->
+    <script src="https://kit.fontawesome.com/47274269df.js" crossorigin="anonymous"></script>
+    <title>Superior Smart Home - Reviews</title>
+</head>
+<body>
+    <!-- Mobile Hamburger Menu -->
+    <i class="fa-solid fa-bars fa-2xl" id="mobile-nav" 
+        onclick= "document.getElementById('topnav').style.display === 'none' ? document.getElementById('topnav').style.display='flex' : document.getElementById('topnav').style.display='none';">
+    </i>
+
+    <!-- Page Title -->
+    <h1 class="page-title">Customer Reviews</h1>
+
+    <!-- Page Navigation -->
+    <nav class="topnav" id="topnav">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="services.html">Services</a>
+        <a href="reviews.html">Reviews</a>
+        <a href="contact.html">Contact Us</a>
+    </nav>
+
+    <!-- Page Content -->
+    <section id="reviews">
+        <div class="customer-container">
+            <div class="rating-container">
+                <h2>Customer 1 - </h2>
+                <span>⭐️⭐️⭐️⭐️⭐️</span>
+            </div>
+
+            <p>REVIEW PLACEHOLDER</p>
+        </div>
+
+        <div class="customer-container">
+            <div class="rating-container">
+                <h2>Customer 2 - </h2>
+                <span>⭐️⭐️⭐️⭐️⭐️</span>
+            </div>
+
+            <p>REVIEW PLACEHOLDER</p>
+        </div>
+
+        <div class="customer-container">
+            <div class="rating-container">
+                <h2>Customer 3 - </h2>
+                <span>⭐️⭐️⭐️⭐️⭐️</span>
+            </div>
+
+            <p>REVIEW PLACEHOLDER</p>
+        </div>
+    </section>
+
+    <!-- <button id = "add-review"
+        onclick =
+        "document.getElementById('review-form').style.display
+        = 'block'"
+    >
+        Add Review
+    </button>
+
+    <section id="review-form">
+        <form>
+            <label for="name-input">Name: </label>
+            <input type="text" id="name-input">
+
+            <label for="rating-input" id="rating-label">Rating: </label>
+            <input type="range" id="rating-input" min="1" max="5" step=".5"
+                oninput="document.getElementById('rating-label').innerText
+                = 'Rating: ' + this.value + ' stars'">
+
+            <label for="review">Please write your review below: </label>
+            <input type="text" id="review">
+        </form>
+    </section> -->
+</body>
+</html>
